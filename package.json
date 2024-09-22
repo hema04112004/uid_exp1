@@ -1,4 +1,4 @@
-{
+{ "homepage":"https://hema04112004 github.io/uid_exp1.git",
   "name": "exp1",
   "version": "0.1.0",
   "private": true,
@@ -18,7 +18,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
